@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+label {
+    text-align: right;
+}
+
+.submit {
+    grid-column: 2/3;
+}
